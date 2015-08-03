@@ -1,4 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
+   <head>
+       <meta charset="utf-8" />
+       <script src="build/react.js"></script>
+       <script src="build/JSXTransformer.js"></script>
+   </head>
     <body>
         <header>
             <div>
@@ -7,5 +13,14 @@
                 </ul>
             </div>
         </header>
+        <div id="example"></div>
+        <script type="text/jsx">
+            React.render(
+                <h1>Hello World!<h1/>
+                document.getElementById('example')
+            );
+        </script>
     </body>
 </html>
+
+
